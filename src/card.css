@@ -1,0 +1,42 @@
+.card{
+    background-color: gainsboro;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #a3a3a3;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.poster-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.heading{
+    font-size: 35px;
+    text-align: center;
+}
+
+.cost{
+    color: rgb(65, 109, 0);
+    text-align: center;
+    font-size: 23px;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+.duration{
+    float: right;
+}
+
+.rating{
+    float: left;
+}
